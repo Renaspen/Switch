@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title> switchhh </title>
+    <meta charset="utf-8">
+    <script>
+
+        var nacionalidad=prompt("¿Prefieres la comida Mexicana, italiana o francesa?");
+        var mensaje="Bienvenido al restaurante. ";
+        var mensaje2="";
+
+        switch(nacionalidad){
+            case "Mexicana":
+                mensaje2=" Encontraras comida picante al igual que nuestra gran variedad de tacos, ";
+                break;
+            case "italiana":
+                mensaje2=" Encontraras nuestra amplia variedad de pizzas y pastas aqui, ";
+                break;
+            case "francesa":
+                mensaje2=" Encontraras nuestro fomoso platillo de ratatouille al igual que ancas de rana y macarrones, "
+                break;
+        }
+        mensaje3=" gracias por esperar, en un momento se le recibira un mesa";
+        document.write(mensaje+mensaje2+mensaje3);
+    </script> 
+   </head>
+</html> 
